@@ -1,0 +1,70 @@
+html{
+	scroll-behavior: smooth;
+	font-family: acumin-pro, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+body{
+}
+
+body, nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	text-align: center;
+	z-index: 1;
+	width: 100%
+}
+
+nav ul{
+	margin: 0 auto;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px 50px;
+	letter-spacing: 5px;
+	font-size: 14px;
+
+}
+
+.icon {
+	max-width: 5px;
+}
+
+header {
+	height: 100vh;
+	padding-top: 100px;
+	margin-bottom: 50px;
+	/*background-image: url(../img/background.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;
+	background-position-y: -250px;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(216,198,150,1) 100%);
+}
+
+.col-sm img{
+	max-width: 100%;
+
+}
+
+h1{
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+
+
+
+p{
+	font-family: Apple Chancery, sans-serif;
+	text-align: justify;
+	line-height: 150%
+}
+
+
