@@ -1,13 +1,24 @@
+
+@font-face {
+font-family: 'Apple Chancery';
+font-style: normal;
+font-weight: normal;
+src: local('Apple Chancery'), url('Apple Chancery.woff') format('woff');
+}
+
 html{
 	scroll-behavior: smooth;
-	font-family: acumin-pro, sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	margin: 0;
+	/*font-family: 'Titillium Web', sans-serif;*/
+	background: rgb(251,165,76);
+	background: linear-gradient(0deg, rgba(251,165,76,1) 0%, rgba(169,181,157,1) 50%, rgba(242,228,202,1) 100%);
+	
 }
 
 body{
 	margin: 0;
+
+	
 }
 
 nav {
@@ -16,8 +27,8 @@ nav {
 	padding: 10 10;
 	left: 0;
 	right: 0;
-	font-size: 22px;
-	background-color: rgba(78,78,78,0.5);
+	font-weight: bold;
+	letter-spacing: 2px;
 
 }
 
@@ -34,7 +45,7 @@ nav li {
 }
 
 nav li a {
-  color: #fff;
+  color: #244441;
   text-decoration: none;
 }
 
@@ -47,13 +58,16 @@ nav li a {
 
 
 .right-col{
-	text-align: justify;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: -1px;
 }
 
 .left-col{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
+
 }
 
 .left-col img{
@@ -61,10 +75,31 @@ nav li a {
 	width: 100%;
   	height: auto;
   	max-width: 1000px;
+  	min-width: 500px;
 }
 
 
 h1{
 	font-size: 80px;
-	font-weight: 700;
+	text-transform: uppercase;
+	/*font-family: 'Passion One', cursive;*/
+	letter-spacing: 2px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 900;
+	color: #dd723c;
+}
+
+.button{
+	background-color: rgb(216, 198, 150);
+	border: 1px solid #244441;
+	border-radius: 100px;
+	text-decoration :none;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #244441;
+	transition: background 0.5s ease-in-out, font-weight 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+.button:hover{
+	background: #758064;
+	color: #FFF;
 }
