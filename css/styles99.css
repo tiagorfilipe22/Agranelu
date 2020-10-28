@@ -22,8 +22,8 @@ html, body {
 body {
   align-items: center;
 
-  background: rgb(242,228,202);
-background: linear-gradient(0deg, rgba(242,228,202,1) 0%, rgba(241,202,101,1) 50%, rgba(251,165,76,1) 100%);
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(169,181,157,1) 50%, rgba(120,145,116,1) 100%);
 
   /*background-color: #f1ca65;*/
   display: flex;

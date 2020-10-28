@@ -1,42 +1,57 @@
 
-@font-face {
+/*@font-face {
 font-family: 'Apple Chancery';
 font-style: normal;
 font-weight: normal;
 src: local('Apple Chancery'), url('Apple Chancery.woff') format('woff');
-}
+}*/
+
+
 
 html{
 	scroll-behavior: smooth;
-	margin: 0;
-	/*font-family: 'Titillium Web', sans-serif;*/
-	background: rgb(251,165,76);
-	background: linear-gradient(0deg, rgba(251,165,76,1) 0%, rgba(169,181,157,1) 50%, rgba(242,228,202,1) 100%);
-	
+	/*font-family: 'Titillium Web', sans-serif;
+	/*background: rgb(242,228,202);
+	background: linear-gradient(0deg, rgba(242,228,202,1) 0%, rgba(241,202,101,1) 50%, rgba(251,165,76,1) 100%);*/
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 700;
+	height: 100%;
+  background-color: white;
+
 }
 
 body{
-	margin: 0;
 
+	/*background-image: url('../img/4.jpg');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position-y: -325px;*/
+	margin: 0;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(169,181,157,1) 50%, rgba(120,145,116,1) 100%);
+
+}
+
+
+nav {
+	position: fixed;
+	z-index: 2;
+  	left: 0;
+	right: 0;
+	font-family: 'Secular One', sans-serif;
+	font-size: 22px;
+	background-color: rgba(78,78,78,0.5);
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	border-radius: 100px;
+	margin: 0 100px;
 	
 }
 
-nav {
+nav ul{
 	margin: 0;
-	z-index: 2;
-	padding: 10 10;
-	left: 0;
-	right: 0;
-	font-weight: bold;
-	letter-spacing: 2px;
-
-}
-
-nav{
-
-  position: fixed;
-  text-align: center;
-  padding: 0 0;
+	padding: 20px 10px;
 }
 
 nav li {
@@ -45,48 +60,29 @@ nav li {
 }
 
 nav li a {
-  color: #244441;
+  color: #fff;
   text-decoration: none;
 }
 
-.row{
-	margin: 0 auto;
-	max-width: 100%;
-	max-height: 100vh;
-	padding: 100px 0;
-}
 
 
-.right-col{
+.logo{
 	text-align: center;
-	font-family: 'Work Sans', sans-serif;
-	letter-spacing: -1px;
+	height: 85vh;
+	padding-top: 100px;
+	margin-bottom: 70px;
 }
 
-.left-col{
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-
-}
-
-.left-col img{
-	text-align: left;
+img{
+	
 	width: 100%;
   	height: auto;
-  	max-width: 1000px;
-  	min-width: 500px;
+  	max-width: 750px;
+  	min-width: 200px;
 }
 
-
-h1{
-	font-size: 80px;
-	text-transform: uppercase;
-	/*font-family: 'Passion One', cursive;*/
-	letter-spacing: 2px;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 900;
-	color: #dd723c;
+.mais{
+	text-align: center;
 }
 
 .button{
@@ -103,3 +99,26 @@ h1{
 	background: #758064;
 	color: #FFF;
 }
+
+h1{
+	font-size: 80px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*font-family: 'Passion One', cursive;*/
+	
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 900;
+		
+	color: #dd723c;
+	background: #ffffff;
+	display: inline-block;
+
+}
+
+.susten{
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+/*style="font-family:'Apple Chancery';font-weight:normal; font-size: 20px;"*/
