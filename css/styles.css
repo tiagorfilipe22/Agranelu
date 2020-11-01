@@ -10,7 +10,7 @@
 
 html{
 	scroll-behavior: smooth;
-	/*font-family: 'Titillium Web', sans-serif;
+	
 	/*background: rgb(242,228,202);
 	background: linear-gradient(0deg, rgba(242,228,202,1) 0%, rgba(241,202,101,1) 50%, rgba(251,165,76,1) 100%);*/
 	font-family: 'Work Sans', sans-serif;
@@ -22,11 +22,7 @@ html{
 
 body{
 
-	background-image: url('../img/5.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 -150px;
-	height: 100vh;
+	
 	/*background-position-y: -325px;*/
 	margin: 0;
 	/*background: rgb(255,255,255);
@@ -35,7 +31,17 @@ body{
 }
 
 
+.home{
+	background-image: url('../img/7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -200px;
+	height: 100vh;
+}
+
 nav {
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-weight: normal;
 	position: fixed;
 	z-index: 2;
   	left: 0;
@@ -43,11 +49,11 @@ nav {
 	font-size: 22px;
 	/*background-color: rgba(78,78,78,0.5);*/
 	text-align: center;
-	padding: 0;
+	padding: 20px 10px;
 	margin: 0;
 	/*border-radius: 100px;*/
 	/*font-family: 'Apple Chancery', cursive;*/
-	/*letter-spacing: 2px;*/
+	letter-spacing: 2px;
 	
 }
 
@@ -71,7 +77,7 @@ nav .logo2{
 }
 
 nav li a {
-  	color: #fff;
+  	color: #111111;
   	text-decoration: none;
 }
 
@@ -90,7 +96,7 @@ nav li a {
 	
 	width: 100%;
   	height: auto;
-  	max-width: 800px;
+  	max-width: 1000px;
   	min-width: 200px;
 }
 
@@ -120,7 +126,7 @@ h1{
 	/*font-family: 'Passion One', cursive;*/
 	
 	/*font-family: 'Work Sans', sans-serif;*/
-	font-family:'Apple Chancery';
+	/*font-family:'Apple Chancery';*/
 	font-weight: bold;
 		
 
