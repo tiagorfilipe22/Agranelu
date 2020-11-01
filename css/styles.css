@@ -22,13 +22,15 @@ html{
 
 body{
 
-	/*background-image: url('../img/4.jpg');*/
+	background-image: url('../img/5.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 0 -150px;
+	height: 100vh;
 	/*background-position-y: -325px;*/
 	margin: 0;
-	background: rgb(255,255,255);
-	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(169,181,157,1) 50%, rgba(120,145,116,1) 100%);
+	/*background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(169,181,157,1) 50%, rgba(120,145,116,1) 100%);*/
 
 }
 
@@ -39,7 +41,7 @@ nav {
   	left: 0;
 	right: 0;
 	font-size: 22px;
-	background-color: rgba(78,78,78,0.5);
+	/*background-color: rgba(78,78,78,0.5);*/
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -51,12 +53,21 @@ nav {
 
 nav ul{
 	margin: 0;
-	padding: 20px 10px;
+	padding: 0;
+
 }
 
 nav li {
  	display: inline-block;
  	margin: 0 25px;
+}
+
+
+nav .logo2{
+	width: 200px;
+	margin: 0;
+	padding: 0;
+
 }
 
 nav li a {
@@ -68,18 +79,18 @@ nav li a {
 
 /*------------------ INDEX01 - HOME -----------------*/
 
-.logo{
+.logo1{
 	text-align: center;
 	height: 85vh;
 	padding-top: 100px;
 	margin-bottom: 70px;
 }
 
-img{
+.logo1 img{
 	
 	width: 100%;
   	height: auto;
-  	max-width: 750px;
+  	max-width: 800px;
   	min-width: 200px;
 }
 
@@ -88,7 +99,7 @@ img{
 }
 
 .button{
-	background-color: rgb(216, 198, 150);
+	background-color: #ffffff;
 	border: 1px solid #244441;
 	border-radius: 100px;
 	text-decoration :none;
@@ -108,18 +119,20 @@ h1{
 	letter-spacing: 2px;
 	/*font-family: 'Passion One', cursive;*/
 	
-	font-family: 'Work Sans', sans-serif;
+	/*font-family: 'Work Sans', sans-serif;*/
+	font-family:'Apple Chancery';
+	font-weight: bold;
 		
 
 	display: inline-block;
 
-	color: #cea48c;
+	color: #e3a92c;
 	line-height: 100%;
 	
 	font-weight: 900;
 }
 h2{
-	color: #cea48c;
+	color: #e3a92c;
 	font-size: 50px;
 	line-height: 150%;
 	font-weight: normal;
