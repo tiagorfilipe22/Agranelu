@@ -18,42 +18,31 @@ html{
 	height: 100%;
   	background-color: white;
 
+
+
 }
 
 body{
 
-	
-	/*background-position-y: -325px;*/
 	margin: 0;
+	/*background-position-y: -325px;*/
 	/*background: rgb(255,255,255);
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(169,181,157,1) 50%, rgba(120,145,116,1) 100%);*/
 
+
 }
 
-
-.home{
-	background-image: url('../img/7.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 -200px;
-	height: 100vh;
-}
 
 nav {
-	/*font-family: 'Titillium Web', sans-serif;*/
 	font-weight: normal;
 	position: fixed;
 	z-index: 2;
   	left: 0;
 	right: 0;
-	font-size: 22px;
-	background-color: rgba(78,78,78,0.25);
-	text-align: center;
-	padding: 20px 10px;
-	margin: 0;
-	/*border-radius: 100px;*/
-	/*font-family: 'Apple Chancery', cursive;*/
-	letter-spacing: 2px;
+	font-size: 18px;
+	background-color: rgb(255, 255, 255,.25);
+	padding: 10px 10px 0;
+	
 	
 }
 
@@ -65,31 +54,72 @@ nav ul{
 
 nav li {
  	display: inline-block;
- 	margin: 0 25px;
+ 	padding: 0 20px;
 }
 
 
 nav .logo2{
 	width: 200px;
-	margin: 0;
-	padding: 0;
 
+}
+
+nav .redes{
+	width: 30px;
 }
 
 nav li a {
   	color: #111111;
   	text-decoration: none;
+  	letter-spacing: 1px;
 }
 
+
+.col-left{
+	text-align: left;
+}
+.col-center{
+	text-align: center;
+}
+.col-right{
+	text-align: right;
+}
+
+
+
+
+
+
+
+/* The dots/bullets/indicators */
+/*
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+*/
 
 
 /*------------------ INDEX01 - HOME -----------------*/
 
 .logo1{
+	height: 100vh;
+	background-image: url('../img/7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -200px;
 	text-align: center;
-	height: 85vh;
-	padding-top: 100px;
-	margin-bottom: 70px;
+	padding-top: 150px;
+	margin-bottom: 20px;
 }
 
 .logo1 img{
@@ -100,13 +130,18 @@ nav li a {
   	min-width: 200px;
 }
 
-.mais{
-	text-align: center;
+.mais img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	display: block;
+	position: absolute;
+	margin-top: -100px;
 }
 
 .button{
 	background-color: #ffffff;
-	border: 1px solid #244441;
+	border: 2px solid #111111;
 	border-radius: 100px;
 	text-decoration :none;
 	padding: 10px 30px;
@@ -120,47 +155,71 @@ nav li a {
 }
 
 h1{
-	font-size: 80px;
+	font-size: 50px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	/*font-family: 'Passion One', cursive;*/
-	
-	/*font-family: 'Work Sans', sans-serif;*/
-	/*font-family:'Apple Chancery';*/
 	font-weight: bold;
-		
-
-	display: inline-block;
-
-	color: #e3a92c;
-	line-height: 100%;
-	
-	font-weight: 900;
+	color: #111111;
+	font-weight: 700;
 }
 h2{
 	color: #e3a92c;
-	font-size: 50px;
-	line-height: 150%;
+	font-size: 40px;
 	font-weight: normal;
+	z-index: 1;
+	font-family:'Apple Chancery';
 }
 h3{
 	color: #244441;
 	font-size: 30px;
-	line-height: 150%;
 	font-weight: bold;
-	margin: 0;
 }
 
 
-.slogan{
-	margin-top:110px;
-}
+.sobre, .produtos, .contactos{
 
-.susten{
-	margin-top: 100px;
 	text-align: center;
+	margin: 100px 0;
 }
 
+
+.sobre img, .produtos img, .contactos img{
+	box-shadow: 50px 50px 70px rgba(0,0,0,0.75);
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.sep-1 {
+	margin: 100px 0;
+	background-image: url('../img/1.jpg'), url('../img/3.jpg'), url('../img/5.jpg');
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center, left, right;
+	background-size: contain, contain, contain;
+	height: 400px;
+	position: relative;
+
+}
+
+.sep-2 {
+	background-image: url('../img/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -200px;
+	height: 400px;
+	position: relative;
+}
+
+.sep-1 .hero-text, .sep-2 .hero-text{
+	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%); 
+	text-shadow: 0 0 50px rgba(255,255,255,1);
+}
 
 /*style="font-family:'Apple Chancery';font-weight:normal; font-size: 20px;"*/
 
@@ -184,19 +243,13 @@ figcaption {
 }
 
 
-p {
-	text-align: justify;
-	line-height: 150%
-}
+
 
 .right-allign {
 	text-align: right;
 }
 
 
-.col-sm img{
-	max-width: 100%
-}
 
 .cosmetics, .ipad, .dashboard{
 	padding: 50px 0;
