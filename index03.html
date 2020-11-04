@@ -44,8 +44,32 @@
 
 
 <script>
-function myAccFunc() {
+function myAccFunc1() {
   var x = document.getElementById("demoAcc1");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+function myAccFunc2() {
+  var x = document.getElementById("demoAcc2");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+function myAccFunc3() {
+  var x = document.getElementById("demoAcc3");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
     x.previousElementSibling.className += " w3-green";
@@ -72,7 +96,7 @@ function myAccFunc() {
 
 
 							<li class="vmcategory vmcat-2 deeper parent">
-								<span class="" onclick="myAccFunc()">Açucar e Substitutos</span>
+								<span class="" onclick="myAccFunc1()">Açucar e Substitutos</span>
 								  <ul id="demoAcc1" class="w3-hide">
 								    <li><a href="#" class="">Açucar</a>
 								    <li><a href="#" class="">Substitutos</a></li>
@@ -87,15 +111,15 @@ function myAccFunc() {
 
 
 							<li class="vmcategory vmcat-2 deeper parent">
-								<span class="" onclick="myAccFunc()">Açucar e Substitutos</span>
-								  <ul id="demoAcc1" class="w3-hide">
+								<span class="" onclick="myAccFunc2()">Açucar e Substitutos</span>
+								  <ul id="demoAcc2" class="w3-hide">
 								    <li><a href="#" class="">Açucar</a>
 								    <li><a href="#" class="">Substitutos</a></li>
 								  </ul>
 							</li>
 							<li class="vmcategory vmcat-2 deeper parent">
-								<span class="" onclick="myAccFunc()">Açucar e Substitutos</span>
-								  <ul id="demoAcc1" class="w3-hide">
+								<span class="" onclick="myAccFunc3()">Açucar e Substitutos</span>
+								  <ul id="demoAcc3" class="w3-hide">
 								    <li><a href="#" class="">Açucar</a>
 								    <li><a href="#" class="">Substitutos</a></li>
 								  </ul>

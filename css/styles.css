@@ -138,9 +138,6 @@ li a:hover {
 
 /*------------------ INDEX01 - HOME -----------------*/
 
-.start{
-	border-bottom: 1px solid black;
-}
 
 .logo1{
 	height: 100vh;
@@ -166,8 +163,8 @@ li a:hover {
 	margin-right: auto;
 	width: 50px;
 	display: block;
-	position: absolute;
 	margin-top: -100px;
+	margin-bottom: 100px;
 }
 
 .button{
@@ -208,16 +205,21 @@ h3{
 }
 
 
+.sobre{
+	margin-top: 200px;
+}
 
-.sobre, .produtos, .contactos{
+.produtos, .contactos{
 
 	text-align: center;
 	margin: 100px 0;
 }
 
 
+
+
 .sobre img, .produtos img, .contactos img{
-	box-shadow: 50px 50px 70px rgba(0,0,0,0.75);
+	box-shadow: -20px 20px 50px rgba(0,0,0,0.75);
 	max-width: 100%;
 	display: block;
 	margin-left: auto;
@@ -225,13 +227,15 @@ h3{
 
 }
 
+
+
 .sep-1 {
 	margin: 100px 0;
 	background-image: url('../img/1.jpg'), url('../img/3.jpg'), url('../img/5.jpg');
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center, left, right;
 	background-size: contain, contain, contain;
-	height: 400px;
+	height: 450px;
 	position: relative;
 
 }
@@ -241,7 +245,7 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 -200px;
-	height: 400px;
+	height: 200px;
 	position: relative;
 }
 
@@ -262,8 +266,8 @@ h3{
 /*------------------------ INDEX02 - A Loja -----------------------------------*/
 
 
-.about{
-	height: 50vh;
+.title{
+	height: 40vh;
 	background-image: url('../img/7.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -303,7 +307,7 @@ figcaption {
 }
 
 .cosmetics img, .ipad img, .dashboard img{
-	box-shadow: 50px 50px 70px rgba(0,0,0,0.75);
+	box-shadow: -20px 20px 50px rgba(0,0,0,0.75);
 	max-width: 100%;
 	display: block;
 	margin-left: auto;
@@ -484,14 +488,9 @@ a, a:hover, a:focus, a:active {
 
 
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-.container .inner-container {
+
+.inner-container {
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     margin-right: -1px;
@@ -501,7 +500,7 @@ a, a:hover, a:focus, a:active {
 }
 
 
-.container .inner-container {
+.inner-container {
     background-color: transparent;
     border-color: transparent;
     padding-left: 0px;
@@ -568,9 +567,7 @@ ul {
     float: left;
 }
 
-.container {
-    overflow: hidden;
-}
+
 
 .sidebar-menu li.deeper>a, .sidebar-menu li.deeper>span {
     padding-right: 40px;
