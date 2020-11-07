@@ -305,7 +305,7 @@ footer.col-md-4{
 
 
 .title{
-	height: 40vh;
+	height: 400px;
 	background-image: url('../img/8.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -334,6 +334,18 @@ footer.col-md-4{
 	height: 500px;
 }
 
+.procedimento{
+	text-align: center;
+}
+
+.procedimento img{
+	height: 80px;
+
+}
+
+.flask{
+	display: inline;
+}
 
 .mySlides img{
 	height: 150px;
@@ -341,11 +353,19 @@ footer.col-md-4{
 
 
 .dash{
-	background-color: pink;
+	
 	width: 100%;
-	height: 320px;
+	height: 500px;
+	padding: 1px 100px 0;
+}
+
+.dash h1, .dash h2, .dash h3, .dash h4{
 	text-align: center;
-	padding: 1px 0 0;
+}
+
+
+.dash ul{
+
 }
 
 
@@ -393,7 +413,10 @@ figcaption {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  margin: 100px auto;
+  margin: 100px auto 0;
+  width: auto
+  padding: 0 500px;
+  background-color: white;
 }
 
 /* Next & previous buttons */
@@ -605,7 +628,7 @@ a, a:hover, a:focus, a:active {
     padding: 0;
 }
 
-ul {
+produtos-index ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
