@@ -1,23 +1,17 @@
 <?php
-       // from the form
-       $name = trim(strip_tags($_POST['name']));
-       $email = trim(strip_tags($_POST['email']));
-       $message = htmlentities($_POST['message']);
 
-       // set here
-       $subject = "Contact form submitted!";
-       $to = 'your@email.com';
+if (isset($_post['submit'])) {
+       $name = $_post['name'];
+       $subject = $_post['subject'];
+       $mailFrom = $_post['mail'];
+       $message = $_post['message'];
 
-       $body = <<<HTML
-$message
-HTML;
+       $mailTo = "tiagorfilipe22@hotmail.com";
+       $headers = "From: ".$mailFrom;
+       $txt = "You have received an email from ".$name. ".\n\n".$message;
 
-       $headers = "From: $email\r\n";
-       $headers .= "Content-type: text/html\r\n";
+       mail($mailTo, $subject, $txt, $headers);
+       header("Location: index.php?mailsend");
 
-       // send the email
-       mail($to, $subject, $body, $headers);
-
-       // redirect afterwords, if needed
-       header('Location: thanks.html');
-?>
+       # code...
+}
