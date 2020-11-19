@@ -280,7 +280,7 @@ p{
 
 .sep-1 {
 	margin: 100px 0;
-	background-image: linear-gradient( rgba(255,255,255,.15) 0%,rgba(255,255,255,.15) 100%), url('../img/5.jpg'), url('../img/1.jpg'), url('../img/3.jpg');
+	background-image: /*linear-gradient( rgba(255,255,255,.15) 0%,rgba(255,255,255,.15) 100%),*/ url('../img/5.jpg'), url('../img/1.jpg'), url('../img/3.jpg');
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center, left, right;
 	background-size: contain, contain, contain;
