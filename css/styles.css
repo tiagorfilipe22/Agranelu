@@ -354,6 +354,10 @@ p{
 
 }
 
+.procedimento p{
+  text-align: center;
+}
+
 .flask{
 	display: inline;
 }
