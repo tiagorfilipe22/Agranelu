@@ -203,16 +203,16 @@ footer.col-md-4{
   	height: auto;
 }
 
-/*	======================================
-	=========== INDEX01 - HOME ===========
-	======================================
-*/
+p{
+	text-align: justify;
+}
 
+/*------------------ INDEX01 - HOME -----------------*/
 
 
 .logo1{
 	height: 100vh;
-	background-image: url('../img/8.jpg');
+	background-image: url('../img/10.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -222,6 +222,9 @@ footer.col-md-4{
 	position: relative;
 }
 
+.foto2{
+	text-align: center;
+}
 
 .mais img{
 	width: 2%;
@@ -310,7 +313,7 @@ footer.col-md-4{
 
 .title{
 	height: 400px;
-	background-image: url('../img/8.jpg');
+	background-image: url('../img/10.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -334,7 +337,11 @@ footer.col-md-4{
 	margin: 100px 0;
 }
 
-.foto{
+.foto2{
+	text-align: center;
+}
+
+.foto2 img{
 	height: 500px;
 }
 
@@ -510,6 +517,11 @@ figcaption {
 }
 
 
+
+
+
+
+/* INDEX04 */
 
 
 
@@ -710,4 +722,5 @@ produtos-index ul {
 
 .map{
 	margin-top: 55px;
+	text-align: center;
 }
