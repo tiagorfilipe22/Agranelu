@@ -15,3 +15,5 @@ if (isset($_post['submit'])) {
 
        # code...
 }
+
+?>
