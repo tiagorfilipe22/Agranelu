@@ -134,16 +134,17 @@ h1{
 	font-weight: 700;
 }
 h2{
-	color: #92a967;
+	color: #111111;
 	font-size: 40px;
 	font-weight: bold;
 	z-index: 1;
-	font-family:'Apple Chancery';
 }
 h3{
-	color: #111111;
-	font-size: 30px;
-	font-weight: bold;
+	color: #92a967;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: 1;
+  font-family:'Apple Chancery';
 }
 
 h4{
@@ -181,6 +182,8 @@ footer{
   height: 300px;
 
     line-height: 1;
+
+
 }
 
 .redes2{
@@ -198,17 +201,32 @@ footer.col-md-4{
   margin-top: 100px;
   width: 50%;
   height: auto;
+
 }
 
 
 .logo{
-	width: 75%;
+	width: 50%;
   height: auto;
+  
 }
 
 p{
 	text-align: justify;
 }
+
+
+.simbol-up{
+  vertical-align: text-top;
+}
+
+
+footer h4{
+  margin-bottom: 0;
+}
+
+
+
 
 .frame{
   vertical-align: middle;
@@ -216,6 +234,14 @@ p{
   display: table-cell;
 }
 
+.vertical-center{
+ display: inline-block;
+    vertical-align: middle;
+}
+
+img{
+  vertical-align: middle;
+}
 
 /*------------------ INDEX01 - HOME -----------------*/
 
@@ -336,7 +362,7 @@ p{
 
 .title{
 	height: 400px;
-	background-image: url('../img/10.jpg');
+	background-image: url('../img/11.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -748,6 +774,7 @@ produtos-index ul {
 
 .map{
   text-align: center;
-  width: auto;
   height: 300px;
+  width: 1000px;
 }
+
