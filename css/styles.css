@@ -203,12 +203,19 @@ footer.col-md-4{
 
 .logo{
 	width: 75%;
-  	height: auto;
+  height: auto;
 }
 
 p{
 	text-align: justify;
 }
+
+.frame{
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+
 
 /*------------------ INDEX01 - HOME -----------------*/
 
@@ -225,11 +232,15 @@ p{
   vertical-align: middle;
   text-align: center;
   display: table-cell;
+  
 }
 
-.logo{
-  width: 45%;
-  min-width: 500px;
+
+
+.logomain{
+  margin-top: -100px;
+  width: 50%;
+  min-width: 800px;
   height: auto;
 }
 
