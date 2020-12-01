@@ -225,6 +225,14 @@ p{
 	position: relative;
 }
 
+.logo{
+  margin-top: 100px;
+  width: 45%;
+  min-width: 500px;
+  height: auto;
+}
+
+
 .foto2{
 	text-align: center;
 }
