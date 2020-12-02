@@ -76,10 +76,42 @@
 				<div class="col-xl-9">
 					<div class="row">
 						<div class="col product">
-							<a href="">
+							<a class="popup" onclick="myFunction()">
 							<img src="img\prod2.jpg" alt="">
 							<figcaption>The honest company</figcaption>
+							<span class="popuptext" id="myPopup">
+								<h4>Pack Saboroso</h4>
+								<div class="row">
+									<div class="col-xl"><img src="img\prod2.jpg" alt=""></div>
+									<div class="col-xl">
+										<p>A pensar naquela pessoa que adora cozinhar e que faz os melhores petiscos, a A Granelu criou o Pack Saboroso que vai apurar ainda mais as receitas que todos adoram. Este pack é composto por 4 especiarias que são enviadas em frascos doados por uma empresa para a qual estes eram inúteis. Recomendamos as 5 pimentas, orégãos, noz moscada e pimentão doce, mas pode escolher as especiarias que lhe fizerem mais sentido. </p>
+										<aside> Especiarias disponíveis para escolha: 
+											<ul>
+												<li>5 Pimentas grão </li>
+												<li>Sementes de Mostarda Branca</li>
+												<li>Oregãos</li>
+												<li>Pimenta preta grão ou moída</li>
+												<li>Louro</li>
+												<li>Caril Madras Premium</li>
+												<li>Pimentão Doce / Colorau </li>
+												<li>Noz Moscada</li>
+												<li>Gengibre Moído</li>
+												<li>Açafrão das Índias / Curcuma</li>
+											</ul>
+										</aside>
+										<aside> Informações gerais:
+										<p>Todos os produtos serão fornecidos, provavelmente, em embalagens que estariam para ir para o lixo ou embrulhados em restos de tecido ou papel de enchimento e sem fita cola. No interior de todos os packs irá uma breve explicação da nossa missão, bem como dos produtos que podem encontrar no pack. Além disso, pode incluir uma mensagem personalizada no mesmo.</p>
+
+										
+											
+										</aside>
+
+									</div>
+								</div>
+								
+							</span>
 							</a>
+
 						</div>
 						<div class="col product">
 							<img src="img\prod1.jpg" alt="">
@@ -136,6 +168,7 @@
 			</div>
 		</div>
 	</div>
+
 	<script>
 	/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 	var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -151,6 +184,14 @@
 	  dropdownContent.style.display = "block";
 	  }
 	  });
+	}
+	</script>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction() {
+	  var popup = document.getElementById("myPopup");
+	  popup.classList.toggle("show");
 	}
 	</script>
 
