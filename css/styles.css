@@ -597,16 +597,32 @@ figcaption {
 
 .category{
   font-size: 22px;
-  color: #818181;
+  color: #111111;
   font-weight: bold;
+}
+
+.sidenav{
+  letter-spacing: 1px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #111111;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
+  letter-spacing: 1px;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
+  color: #111111;
   display: block;
   border: none;
   background: none;
@@ -626,16 +642,16 @@ figcaption {
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
   color: #111111;
   font-weight: bold;
-  font-size: 24px;
+
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
   padding-left: 15px;
+  font-size: 12px;
 }
 
 /* Optional: Style the caret down icon */
@@ -654,13 +670,24 @@ figcaption {
 
 .product{
   margin: 5px 0px;
+  text-align: center;
+  padding: 0;
+  width: 200px;
+  height: 300px;
 }
 
 
-.product img{
-  width: 100%;
+.product .display{
+  width: 200px;
   height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+
+
 }
+
+
+
 
 .product a, .product figcaption{
   text-decoration: none;
@@ -688,18 +715,17 @@ figcaption {
   visibility: hidden;
   width: auto;
   height:auto;
-  background-color: rgba(85,85,85,0.9);
+  background-color: rgba(111,111,111,0.97);
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 50px 50px 0;
+  padding: 8px 50px 50px 50px;
   position: fixed;
   z-index: 1;
   top: 10%;
   bottom: 10%;
   left: 10%;
   right: 10%;
-  margin: 0 auto;
   overflow:auto;
 }
 
@@ -723,11 +749,38 @@ figcaption {
   to {opacity:1 ;}
 }
 
+.popuptext h4{
+  font-size: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.popuptext h5{
+  font-size: 18px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
 .popuptext img{
   width: 50%;
   height: auto;
+  padding-bottom: 10px;
 }
 
 .popuptext p, .popuptext aside{
   text-align: justify;
+  margin: 0;
+}
+
+.popuptext aside{
+  padding: 10px 0;
+}
+
+.popuptext b{
+  letter-spacing: 0.5px;
+}
+
+.popuptext li{
+  padding-bottom: 10px;
 }
