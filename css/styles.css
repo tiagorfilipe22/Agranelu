@@ -182,10 +182,32 @@ footer{
 	*/
   height: auto;
 
-    line-height: 1;
-
-
+  line-height: 1;
+  text-align: center;
+  padding-bottom: 20px;
 }
+
+footer p{
+  text-align: center;
+}
+
+footer li{
+  display: inline-block;
+}
+
+footer .col-xl-4{
+  text-align: center;
+  display: block;
+}
+
+footer .redes{
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .redes2{
 	height: 15px;
@@ -193,6 +215,7 @@ footer{
 
 footer img{
 	filter: brightness(0) invert(1);
+
 }
 
 footer.col-md-4{
@@ -207,9 +230,9 @@ footer.col-md-4{
 
 
 .logo{
-	width: 50%;
+	width: 40%;
   height: auto;
-  
+  margin-top: 20px;
 }
 
 p{
@@ -564,9 +587,8 @@ figcaption {
 /*------------------------------MPAS*/
 
 .map{
-  text-align: center;
-  height: 300px;
-  width: 1000px;
+  padding-top: 55px;
+  margin: 0;
 }
 
 
