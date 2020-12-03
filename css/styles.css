@@ -195,7 +195,7 @@ footer li{
   display: inline-block;
 }
 
-footer .col-xl-4{
+footer .col-xl-4, footer .col-md-4{
   text-align: center;
   display: block;
 }
@@ -576,20 +576,72 @@ figcaption {
 
 
 
-/* INDEX04 */
+/* ----------------------------------------------------------INDEX04------------------------------------------------------------- */
+
+
+.title2{
+  height: auto;
+  background-image: url('../img/11.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 150px;
+  position: relative;
+}
 
 
 
 
+.title2{
+  text-align: center;
+  font-weight: 700;
+  padding: 70px 0 50px 0;
+}
+
+.contactos h4{
+  margin: 0;
+}
+
+.contactos p{
+  text-align: center;
+  margin: 0;
+}
+
+.contactos{
+  justify-content: center;
+  color: #111;
+}
+
+
+.contactos img{
+  width: 50px;
+  filter: brightness(0) invert(0.3);
+
+}
+
+
+.be-sustentavel{
+  background-color: #cea045;
+  margin: 0;
+}
+
+.be-sustentavel h2, .be-sustentavel h4, .be-sustentavel h5{
+  margin: 0;
+}
 
 
 
 /*------------------------------MPAS*/
 
 .map{
-  padding-top: 55px;
+  /*padding-top: 54px;*/
   margin: 0;
+  height: 400px;
 }
+
+
+
 
 
 
