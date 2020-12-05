@@ -439,7 +439,7 @@ footer h4{
 .foto2 img{
   margin: 0 auto;
   max-height: 600px;
-  box-shadow: 20px 20px 50px rgba(0,0,0,0.75);
+  box-shadow: -20px 20px 50px rgba(0,0,0,0.75);
 	max-width: 100%;
 	display: block;
 	margin-left: auto;
@@ -506,21 +506,6 @@ figcaption {
 }
 
 
-
-.cosmetics, .ipad, .dashboard{
-	padding: 50px 0;
-
-}
-
-.cosmetics img, .ipad img, .dashboard img{
-	box-shadow: -20px 20px 50px rgba(0,0,0,0.75);
-	max-width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	/*border-radius: 50px;*/
-}
 
 
 
@@ -897,7 +882,7 @@ figcaption {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(111,111,111,0.97);
+  background-color: rgba(111,111,111,0.50);
   transition: opacity 1000ms;
   visibility: hidden;
   opacity: 0;
@@ -915,14 +900,14 @@ figcaption {
   left: 10%;
   right: 10%;
   margin: 70px 70px;
-  background: #fff;
+  background-color: rgba(111,111,111,0.97);
   border-radius: 10px;
 
   position: fixed;
   height: auto;
   width: auto;
   overflow: auto;
-  color: #333;
+  color: #fff;
 }
 
 .pop p{
