@@ -944,7 +944,7 @@ figcaption {
   top: 100px;
   right: 15%;
   transition: all 200ms;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: bold;
   text-decoration: none;
   color: #333;
@@ -958,6 +958,7 @@ figcaption {
   width: 75%;
   height: auto;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 /*
