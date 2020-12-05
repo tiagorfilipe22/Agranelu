@@ -125,9 +125,7 @@ li a:hover {
 }
 
 
-/*p{
-  text-indent: 1.5em;
-}*/
+
 
 
 h1{
@@ -323,6 +321,11 @@ footer h4{
 	margin-bottom: 100px;
 }
 
+
+.sobre p, .produtos p{
+  text-indent: 1.5em;
+}
+
 .produtos{
 
 	text-align: center;
@@ -419,7 +422,9 @@ footer h4{
 	margin: 100px 0 50px;
 }
 
-
+.thestore p{
+  text-indent: 1.5em;
+}
 
 .foto2{
   text-align: center;
@@ -480,6 +485,7 @@ footer h4{
 }
 .dash p{
   max-width: 700px;
+  text-indent: 1.5em;
 }
 
 figcaption {
@@ -692,6 +698,9 @@ figcaption {
   margin-bottom: 100px;
 }
 
+.product-table p{
+  text-indent: 1.5em;
+}
 
 .product{
   margin: 5px 0px;
