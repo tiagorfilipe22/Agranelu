@@ -125,9 +125,9 @@ li a:hover {
 }
 
 
-p{
+/*p{
   text-indent: 1.5em;
-}
+}*/
 
 
 h1{
@@ -471,8 +471,16 @@ footer h4{
 	text-align: center;
 }
 
+.dash h4{
+  margin: 0;
+}
 
-
+.dash ul{
+  max-width: 800px;
+}
+.dash p{
+  max-width: 700px;
+}
 
 figcaption {
 	font-size: 12px;
@@ -525,12 +533,11 @@ figcaption {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
-  width: auto;
-  padding: 16px;
+  top: 10%;
+  padding: 100px;
   color: black;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
