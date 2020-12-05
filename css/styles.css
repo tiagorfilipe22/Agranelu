@@ -93,9 +93,20 @@ nav .redes{
 	margin-top: 10px;
 }
 
-.redes{
+
+
+
+.redes a{
   margin: 0;
   padding: 0;
+}
+
+.redes li{
+  padding: 0 10px;
+}
+
+.redes img{
+  border-radius: 0px;
 }
 
 nav li a {
@@ -119,13 +130,17 @@ li a:hover {
 }
 
 .col-left{
-	text-align: left;
+  text-align: left;
+  justify-content: left;
 }
 .col-center{
-	text-align: center;
+  text-align: center;
+  justify-content: center;
 }
 .col-right{
-	text-align: right;
+  text-align: right;
+  justify-content: right;
+  width: 200px;
 }
 
 
@@ -309,7 +324,8 @@ footer h4{
 	padding: 10px 30px;
 	display: inline-block;
 	color: #244441;
-	transition: background 0.5s ease-in-out, font-weight 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: background 0.5s ease-in-out, font-weight 0.25s ease-in-out, color 0.25s ease-in-out;
+  margin: 20px;
 }
 
 .button:hover{
@@ -322,7 +338,8 @@ footer h4{
 
 .sobre{
 	margin-top: 100px;
-	margin-bottom: 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 
@@ -334,6 +351,10 @@ footer h4{
 
 	text-align: center;
 	margin: 100px 0;
+}
+
+.sobre h3, .produtos h3{
+  margin: -40px 0;
 }
 
 .foto1{
@@ -520,7 +541,7 @@ figcaption {
   margin: 50px auto 0;
   max-width: 1080px;
   width: auto;
-  height: 500px;
+  height:400px;
   padding: 0 auto;
   background-color: white;
 }
@@ -529,7 +550,7 @@ figcaption {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 10%;
+  top: 20%;
   padding: 50px ;
   color: black;
   font-weight: bold;
@@ -573,13 +594,14 @@ figcaption {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 30px;
+  width: 30px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-bottom: 20px;
 }
 
 .active, .dot:hover {
@@ -714,8 +736,6 @@ figcaption {
   font-size: 14px;
 }
 
-
-/*POPUP*/
 
 
 
