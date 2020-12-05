@@ -901,11 +901,12 @@ figcaption {
 .overlay:target {
   visibility: visible;
   opacity: 1;
+  z-index: 1;
 }
 
 .pop {
-  top: 10%;
-  bottom: 10%;
+  top: 0;
+  bottom: 0;
   left: 10%;
   right: 10%;
   margin: 70px 70px;
@@ -952,7 +953,7 @@ figcaption {
   top: 20px;
   right: 30px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   text-decoration: none;
   color: #333;
@@ -963,7 +964,7 @@ figcaption {
 
 
 .pop img{
-  width: 60%;
+  width: 100%;
   height: auto;
   padding-bottom: 10px;
 }
