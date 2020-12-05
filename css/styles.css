@@ -946,6 +946,7 @@ figcaption {
 .pop aside{
   text-align: justify;
   text-indent: 1.5em;
+  font-size: 14px;
 }
 
 .pop .close {
