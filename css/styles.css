@@ -288,7 +288,7 @@ footer h4{
 
 .logo1{
 	height: 100vh;
-	background-image: url('../img/11.jpg');
+	background-image: url('../img/main.jpg');
   background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -417,7 +417,7 @@ footer h4{
 
 .title{
 	height: 300px;
-	background-image: url('../img/11.jpg');
+	background-image: url('../img/main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -743,7 +743,7 @@ figcaption {
 
 .title2{
   height: auto;
-  background-image: url('../img/11.jpg');
+  background-image: url('../img/main.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
