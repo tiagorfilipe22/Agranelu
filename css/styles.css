@@ -884,6 +884,7 @@ figcaption {
   font-weight: bold;
   text-decoration: none;
   color: #333;
+  z-index: 50;
 }
 .pop .close:hover {
   color: #92a967;
