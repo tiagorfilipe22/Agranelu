@@ -635,6 +635,11 @@ figcaption {
 
 /*-------------------------------INDEX03-----------------------------*/
 
+.classCenter{
+  justify-content: center;
+}
+
+
 
 .category{
   font-size: 22px;
